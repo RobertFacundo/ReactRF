@@ -122,7 +122,7 @@ const About = () => {
 
             >
                 <div className="lg:w-1/3 lg:block hidden">
-                    {!isDarkMode && <img className="-z-50" src="../public/cherryblossom.png" alt="cherrytree" />}
+                    {!isDarkMode && <img className="-z-50" src="/cherryblossom.png" alt="cherrytree" />}
                 </div>
 
                 <motion.section
