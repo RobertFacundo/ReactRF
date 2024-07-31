@@ -41,11 +41,11 @@ const Projects = () => {
                 desc: 'I decided to practice on my own, and the chosen theme was video games. I had fun designing the infinite carousel, grid, and a search input.',
                 link: 'https://robertfacundo.github.io/Practica-WebVideojuegos/'
             },
-            // {
-            //     src: '../public/proyectos/portfolio.gif',
-            //     desc: 'I decided to practice on my own, and the chosen theme was video games. I had fun designing the infinite carousel, grid, and a search input.',
-            //     link: 'https://robertfacundo.github.io/Practica-WebVideojuegos/'
-            // },
+            {
+                src: '/proyectos/portfolio.mp4',
+                desc: 'This portfolio is developed in React and uses multiple context providers to manage the theme and language globally. Navigation is handled with React Router, allowing users to move between different routes such as "About", "Contact", "Certifications," and "Projects." Entry and exit animations are managed with framer-motion, providing smooth transitions between pages. On the projects page, Swiper is used to display projects interactively with navigation, pagination, and keyboard support. The theme context (ThemeContext) allows toggling between dark and light modes, dynamically applying styles throughout the site.',
+                link: 'https://main--robertfacundo.netlify.app/'
+            },
             {
                 src: 'proyectos/cuentos.mp4',
                 desc: 'My first dive into the world of HTML and CSS. Margin, padding, display: flex, and discovering the wonder of hover. Passed with flying colors, and as a bonus, I used the site to upload stories I had written in the past.',
@@ -95,6 +95,11 @@ const Projects = () => {
                 link: 'https://robertfacundo.github.io/Practica-WebVideojuegos/'
             },
             {
+                src: 'proyectos/portfolio.mp4',
+                desc: 'Mi portfolio está desarrollado en React y utiliza múltiples proveedores de contexto para manejar el tema y el idioma a nivel global. La navegación está gestionada con React Router, permitiendo a los usuarios moverse entre diferentes las rutas. Las animaciones de entrada y salida se manejan con framer-motion, proporcionando una transición suave entre las páginas. En la página de proyectos, se utiliza Swiper para mostrar los proyectos de forma interactiva con navegación, paginación y soporte de teclado.',
+                link: 'https://main--robertfacundo.netlify.app/'
+            },
+            {
                 src: 'proyectos/cuentos.mp4',
                 desc: 'Mi primera zambullida al universo del HTML y CSS. Margin, padding, display: flex y conocer la maravilla del hover. Aprobado con nota sobresaliente, de yapa aproveché el sitio para subir cuentos que había escrito en otro tiempo.',
                 link: 'https://robertfacundo.github.io/PreEntrega3Robert/'
@@ -139,7 +144,7 @@ const Projects = () => {
             </motion.section>
             <hr className="w-1/5 mx-auto border-black dark:border-white " />
             <div className="w-full  bg-slate-50 dark:bg-transparent transition-colors duration-700"
-                >
+            >
                 <Swiper
                     className="projects-swiper "
                     modules={[Pagination, Keyboard, Navigation]}
