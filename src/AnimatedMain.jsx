@@ -62,9 +62,9 @@ const AnimatedMain = ({ children }) => {
 
             const totalLeaves = 57;
             const leafImages = [
-                "../public/cherry.png",
-                "../public/cherry2.png",
-                "../public/cherry3.png",
+                "/cherry.png",
+                "/cherry2.png",
+                "/cherry3.png",
             ];
 
             for (let i = 0; i < totalLeaves; i++) {
