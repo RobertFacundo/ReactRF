@@ -17,12 +17,12 @@ const Certifications = () => {
 
     const images = language === 'en'
         ? [
-            "../public/certificados/en1.png",
-            "../public/certificados/en2.png",
+            "/certificados/en1.png",
+            "/certificados/en2.png",
         ]
         : [
-            "../public/certificados/sp1.png",
-            "../public/certificados/sp2.png",
+            "/certificados/sp1.png",
+            "/certificados/sp2.png",
         ];
 
     return (
