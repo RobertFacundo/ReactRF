@@ -22,22 +22,22 @@ const Projects = () => {
     const projects = language === 'en'
         ? [
             {
-                src: '../public/proyectos/fotografico.mp4',
+                src: 'proyectos/fotografico.mp4',
                 desc: 'A photography portfolio template where I perfected the skills I learned in various courses.',
                 link: 'https://robertfacundo.github.io/PortfolioFotografia/'
             },
             {
-                src: '../public/proyectos/historia.mp4',
+                src: 'proyectos/historia.mp4',
                 desc: 'I designed this website with history as the topic, from which I thought I could create something interesting. The big challenge was making a dropdown menu that appears from behind the image slider without breaking everything I had done.',
                 link: 'https://robertfacundo.github.io/SitioWebHistoria-/'
             },
             {
-                src: '../public/proyectos/react.mp4',
+                src: 'proyectos/react.mp4',
                 desc: 'This time, I designed a site with modern architecture based on React, integrating a variety of interactive and functional components. Using advanced state and effect techniques, each component is designed to manage local and global states efficiently. The application also includes sophisticated features such as API utilization, dynamic generation of literary quotes, trivia games, and task list management. Additionally, detailed interaction tracking is implemented through interactive graphs, allowing for user behavior analysis. This approach ensures optimal performance and a smooth user experience, which are fundamental in modern and scalable web applications.',
                 link: 'https://main--luxury-starship-c00ba3.netlify.app/'
             },
             {
-                src: '../public/proyectos/videojuego.mp4',
+                src: 'proyectos/videojuego.mp4',
                 desc: 'I decided to practice on my own, and the chosen theme was video games. I had fun designing the infinite carousel, grid, and a search input.',
                 link: 'https://robertfacundo.github.io/Practica-WebVideojuegos/'
             },
@@ -47,27 +47,27 @@ const Projects = () => {
             //     link: 'https://robertfacundo.github.io/Practica-WebVideojuegos/'
             // },
             {
-                src: '../public/proyectos/cuentos.mp4',
+                src: 'proyectos/cuentos.mp4',
                 desc: 'My first dive into the world of HTML and CSS. Margin, padding, display: flex, and discovering the wonder of hover. Passed with flying colors, and as a bonus, I used the site to upload stories I had written in the past.',
                 link: 'https://robertfacundo.github.io/PreEntrega3Robert/'
             },
             {
-                src: '../public/proyectos/js.mp4',
+                src: 'proyectos/js.mp4',
                 desc: 'This site is the final project of the JavaScript course. It implements iterative loops, conditionals, and DOM modifications, as well as having a semi-functional shopping cart.',
                 link: 'https://robertfacundo.github.io/ProyectoFinalJavaScript/'
             },
             {
-                src: '../public/proyectos/musicShop.mp4',
+                src: 'proyectos/musicShop.mp4',
                 desc: 'E-commerce for musical instruments with a shopping cart that is displayed in a modal. I used fetch to obtain product data from a JSON file and display them in the DOM using an asynchronous function. The products can be viewed by selecting the corresponding category in the navigation bar. The styles are defined in SCSS for an attractive and responsive presentation of the store.',
                 link: 'https://robertfacundo.github.io/musicShop/'
             },
             {
-                src: '../public/proyectos/fetch.mp4',
+                src: 'proyectos/fetch.mp4',
                 desc: "This project is a React application that uses a custom hook to fetch and display information about Pokémon from the PokeAPI. The application allows users to filter Pokémon by type (category) and view a random set of detailed Pokémon based on the user's selection.",
                 link: 'https://fecthreact.netlify.app/psychic'
             },
             {
-                src: '../public/proyectos/ecommerce.mp4',
+                src: 'proyectos/ecommerce.mp4',
                 desc: 'On my own, I wanted to emulate a clothing e-commerce site to practice grid layouts, product presentation, and functionalities such as filters and onclick events.',
                 link: 'https://robertfacundo.github.io/PracticaEcommerceRopa/'
             },
@@ -75,47 +75,47 @@ const Projects = () => {
         ]
         : [
             {
-                src: '../public/proyectos/fotografico.mp4',
+                src: 'proyectos/fotografico.mp4',
                 desc: 'Un template de un portfolio fotográfico en el que perfeccioné las habilidades que aprendí en los diferentes cursos.',
                 link: 'https://robertfacundo.github.io/PortfolioFotografia/'
             },
             {
-                src: '../public/proyectos/historia.mp4',
+                src: 'proyectos/historia.mp4',
                 desc: 'Diseñé este sitio sobre historia, del que pensé que podria hacer algo interesante. El gran desafío fue hacer un menú desplegable que salga desde detrás del slider de imágenes sin que se rompa todo lo que habia hecho.',
                 link: 'https://robertfacundo.github.io/SitioWebHistoria-/'
             },
             {
-                src: '../public/proyectos/react.mp4',
+                src: 'proyectos/react.mp4',
                 desc: 'En esta oportunidad diseñé un sitio con arquitectura moderna basada en React, integrando una variedad de componentes interactivos y funcionales. Utilizando técnicas avanzadas de estado y efectos, cada componente está diseñado para gestionar estados locales y globales de manera eficiente. La aplicación también incluye características sofisticadas como utilizacion de APIs, e implementa un seguimiento detallado de interacciones a través de gráficos interactivos, permitiendo análisis del comportamiento del usuario. Este enfoque garantiza un rendimiento óptimo y una experiencia de usuario fluida, fundamentales en aplicaciones web modernas y escalables.',
                 link: 'https://main--luxury-starship-c00ba3.netlify.app/'
             },
             {
-                src: '../public/proyectos/videojuego.mp4',
+                src: 'proyectos/videojuego.mp4',
                 desc: 'Decidí practicar por mi cuenta, y la temática elegida fue la de videojuegos. Me entretuve ideando el carrousel infinito, grid, un input de busqueda.',
                 link: 'https://robertfacundo.github.io/Practica-WebVideojuegos/'
             },
             {
-                src: '../public/proyectos/cuentos.mp4',
+                src: 'proyectos/cuentos.mp4',
                 desc: 'Mi primera zambullida al universo del HTML y CSS. Margin, padding, display: flex y conocer la maravilla del hover. Aprobado con nota sobresaliente, de yapa aproveché el sitio para subir cuentos que había escrito en otro tiempo.',
                 link: 'https://robertfacundo.github.io/PreEntrega3Robert/'
             },
             {
-                src: '../public/proyectos/js.mp4',
+                src: 'proyectos/js.mp4',
                 desc: 'Este sitio es el proyecto final del curso de Javascript. Se implementan ciclos iterativos, condicionales, modificaciones del DOM, además de tener un carro de compras semi funcional.',
                 link: 'https://robertfacundo.github.io/ProyectoFinalJavaScript/'
             },
             {
-                src: '../public/proyectos/musicShop.mp4',
+                src: 'proyectos/musicShop.mp4',
                 desc: 'E-commerce de instrumentos musicales con carrito de compras, que se visualiza con un modal. Utilicé fetch para obtener los datos de los productos desde un archivo JSON y mostrarlos en el DOM mediante  una función asíncrona. Los productos se pueden visualizar al seleccionar la categoría correspondiente en la barra de navegación. Los estilos están definidos en SCSS para una presentación atractiva y responsiva de la tienda.',
                 link: 'https://robertfacundo.github.io/musicShop/'
             },
             {
-                src: '../public/proyectos/fetch.mp4',
+                src: 'proyectos/fetch.mp4',
                 desc: 'Este proyecto es una aplicación de React que utiliza un hook personalizado para obtener y mostrar información sobre Pokémon desde la PokeAPI. La aplicación permite a los usuarios filtrar Pokémon por tipo (categoría) y visualizar un conjunto aleatorio de Pokémon detallados basados en la selección del usuario.',
                 link: 'https://fecthreact.netlify.app/psychic'
             },
             {
-                src: '../public/proyectos/ecommerce.mp4',
+                src: 'proyectos/ecommerce.mp4',
                 desc: 'Por mi cuenta quise emular un E-commerce de ropa, para poder practicar la disposicion de las grillas, presentación de productos, y funcionalidades como filtros y eventos onclick.',
                 link: 'https://robertfacundo.github.io/PracticaEcommerceRopa/'
             },
