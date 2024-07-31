@@ -12,14 +12,14 @@ const About = () => {
     const staggerDuration = 0.2;
 
     const logos = [
-        { src: "../public/logos/html.png", tooltip: "HTML" },
-        { src: "../public/logos/css.png", tooltip: "CSS" },
-        { src: "../public/logos/js.png", tooltip: "JavaScript" },
-        { src: "../public/logos/react.png", tooltip: "React" },
-        { src: "../public/logos/sass.png", tooltip: "Sass" },
-        { src: "../public/logos/tailwind.png", tooltip: "Tailwind CSS" },
-        { src: "../public/logos/bulma.png", tooltip: "Bulma" },
-        { src: "../public/logos/framer.png", tooltip: "Framer Motion" },
+        { src: "/logos/html.png", tooltip: "HTML" },
+        { src: "/logos/css.png", tooltip: "CSS" },
+        { src: "/logos/js.png", tooltip: "JavaScript" },
+        { src: "/logos/react.png", tooltip: "React" },
+        { src: "/logos/sass.png", tooltip: "Sass" },
+        { src: "/logos/tailwind.png", tooltip: "Tailwind CSS" },
+        { src: "/logos/bulma.png", tooltip: "Bulma" },
+        { src: "/logos/framer.png", tooltip: "Framer Motion" },
     ];
 
     const parrafos = {
