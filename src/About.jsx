@@ -20,6 +20,7 @@ const About = () => {
         { src: "/logos/tailwind.png", tooltip: "Tailwind CSS" },
         { src: "/logos/bulma.png", tooltip: "Bulma" },
         { src: "/logos/framer.png", tooltip: "Framer Motion" },
+        { src: "/logos/firebase.png", tooltip: "Firebase" },
     ];
 
     const parrafos = {
