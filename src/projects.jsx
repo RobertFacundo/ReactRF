@@ -37,6 +37,11 @@ const Projects = () => {
                 link: 'https://main--luxury-starship-c00ba3.netlify.app/'
             },
             {
+                src: 'proyectos/reactecommerce.mp4',
+                desc: "This React shopping cart application allows users to add products to a cart, review selected items, and place an order. The application uses Firebase to manage data persistence and localStorage to maintain the user's cart even after reloading the page. Additionally, the Bulma library is employed for design and user interface, providing a modern and responsive look. SweetAlert is used to display informative and error alerts elegantly.",
+                link: 'https://ecommercereactfinalproject.netlify.app/'
+            },
+            {
                 src: 'proyectos/videojuego.mp4',
                 desc: 'I decided to practice on my own, and the chosen theme was video games. I had fun designing the infinite carousel, grid, and a search input.',
                 link: 'https://robertfacundo.github.io/Practica-WebVideojuegos/'
@@ -88,6 +93,11 @@ const Projects = () => {
                 src: 'proyectos/react.mp4',
                 desc: 'En esta oportunidad diseñé un sitio con arquitectura moderna basada en React, integrando una variedad de componentes interactivos y funcionales. Utilizando técnicas avanzadas de estado y efectos, cada componente está diseñado para gestionar estados locales y globales de manera eficiente. La aplicación también incluye características sofisticadas como utilizacion de APIs, e implementa un seguimiento detallado de interacciones a través de gráficos interactivos, permitiendo análisis del comportamiento del usuario. Este enfoque garantiza un rendimiento óptimo y una experiencia de usuario fluida, fundamentales en aplicaciones web modernas y escalables.',
                 link: 'https://main--luxury-starship-c00ba3.netlify.app/'
+            },
+            {
+                src: 'proyectos/reactecommerce.mp4',
+                desc: 'Esta aplicación de carrito de compras en React permite a los usuarios agregar productos a un carrito, revisar los elementos seleccionados y realizar un pedido. La aplicación utiliza Firebase para gestionar la persistencia de datos y el almacenamiento en localStorage para mantener el carrito del usuario incluso después de recargar la página. Además, se emplea la biblioteca Bulma para el diseño y la interfaz de usuario, proporcionando un aspecto moderno y responsivo.SweetAlert se utiliza para mostrar alertas informativas y de error de manera elegante.',
+                link: 'https://ecommercereactfinalproject.netlify.app/'
             },
             {
                 src: 'proyectos/videojuego.mp4',
