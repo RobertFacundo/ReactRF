@@ -40,6 +40,15 @@ const links = [
         transition: { duration: 1.5 },
     },
     {
+        title: "Behance",
+        href: "https://www.behance.net/facundorobert/services/378709/React-Web-Developer",
+        icon: "fa-behance",
+        initial: { opacity: 0, y: -200 },
+        animate: { opacity: 1, y: 0 },
+        exit: { opacity: 0, y: 200 },
+        transition: { duration: 1.5 },
+    },
+    {
         title: "WhatsApp",
         href: "https://wa.me/5492235801773",
         icon: "fa-whatsapp",
