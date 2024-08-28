@@ -127,7 +127,7 @@ const Projects = () => {
             {
                 src: 'proyectos/fetch.mp4',
                 desc: 'Este proyecto es una aplicación de React que utiliza un hook personalizado para obtener y mostrar información sobre Pokémon desde la PokeAPI. La aplicación permite a los usuarios filtrar Pokémon por tipo (categoría) y visualizar un conjunto aleatorio de Pokémon detallados basados en la selección del usuario.',
-                link: 'https://fecthreact.netlify.app/psychic'
+                link: 'https://fecthreact.netlify.app/'
             },
             {
                 src: 'proyectos/ecommerce.mp4',

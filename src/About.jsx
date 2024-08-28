@@ -114,7 +114,7 @@ const About = () => {
                 style={{ zIndex: 50 }}
             >
                 {/* <h1 className="pl-3 pb-1 text-3xl tracking-widest font-extralight ">Facundo Robert</h1>  */}
-                <TypingText text="Faacundo Robert" speed={200}/>
+                <TypingText text="Faacundo Robert" speed={200} className="typing-text pl-3 pb-1 text-3xl text-center"/>
                 <hr className="lg:w-1/3 w-5/12 " />
             </motion.div>
 
