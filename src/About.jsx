@@ -29,7 +29,7 @@ const About = () => {
                 id: "parrafo1",
                 text: (
                     <>
-                        Originalmente de <b>Argentina</b>, mi trayectoria comenzó en el mundo de la música, donde desarrollé una profunda apreciación por la expresión artística y la colaboración creativa. Para la misma época y durante varias temporadas, tuve el privilegio de trabajar en hoteles de renombre en los <b>Estados Unidos</b>, donde no solo adquirí una valiosa experiencia laboral, sino que también tuve la oportunidad de aprender y perfeccionar el idioma inglés.
+                        Originalmente de <b>Argentina</b>, mi trayectoria comenzó en el mundo de la música, donde desarrollé una profunda apreciación por la expresión artística y la colaboración creativa. Para la misma época y durante varias temporadas, tuve el privilegio de trabajar en hoteles de renombre en los <b>Estados Unidos</b>, donde no solo adquirí una valiosa experiencia laboral, sino que también tuve la oportunidad de aprender y perfeccionar el idioma inglés <a href="/certificados/certificadoIngles.jpeg" target="_blank"><i>(Upper Intermediate B2)</i></a>.
                     </>
                 ),
             },

@@ -20,13 +20,15 @@ const Certifications = () => {
             "/certificados/en1.png",
             "/certificados/en2.png",
             "/certificados/reactniof.png",
-            "/certificados/EnBackend1.png"
+            "/certificados/EnBackend1.png",
+            "/certificados/certificadoIngles.jpeg"
         ]
         : [
             "/certificados/sp1.png",
             "/certificados/sp2.png",
             "/certificados/Reactes.png",
-            "/certificados/esBackend1.png"
+            "/certificados/esBackend1.png",
+            "/certificados/certificadoIngles.jpeg"
         ];
 
     return (
