@@ -17,11 +17,11 @@ const About = () => {
         { src: "/logos/js.png", tooltip: "JavaScript" },
         { src: "/logos/react.png", tooltip: "React" },
         { src: "/logos/sass.png", tooltip: "Sass" },
-        { src: "/logos/MongoDB.png", tooltip: "Mongo DB" },
         { src: "/logos/tailwind.png", tooltip: "Tailwind CSS" },
         { src: "/logos/bulma.png", tooltip: "Bulma" },
         { src: "/logos/framer.png", tooltip: "Framer Motion" },
         { src: "/logos/firebase.png", tooltip: "Firebase" },
+        { src: "/logos/MongoDB.png", tooltip: "Mongo DB" },
     ];
 
     const parrafos = {
