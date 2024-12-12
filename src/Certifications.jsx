@@ -30,7 +30,7 @@ const Certifications = () => {
             "/certificados/Reactes.png",
             "/certificados/esBackend1.png",
             "/certificados/certificadoIngles.jpeg",
-            "/certificados/BackEnddiiEspañol.png"
+            "/certificados/BackEndiiEspañol.png"
         ];
 
     return (
