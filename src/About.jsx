@@ -38,7 +38,7 @@ const About = () => {
                 id: "parrafo2",
                 text: (
                     <>
-                        Sin embargo, mi verdadero viaje hacia la realización personal comenzó cuando decidí adentrarme en el mundo de la programación. Desde entonces he estado comprometido a dedicarle todo mi tiempo para mejorar mis habilidades. Actualmente estoy inscrito en el Curso de <b>Desarrollo Web Full Stack</b> en <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, destacándome en áreas como <b>HTML, CSS, React y JavaScript</b> con resultados sobresalientes.
+                        Sin embargo, mi verdadero viaje hacia la realización personal comenzó cuando decidí adentrarme en el mundo de la programación. Desde entonces he estado comprometido a dedicarle todo mi tiempo para mejorar mis habilidades. Me recibí como <b>Desarrollor Web Full Stack</b> en <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, destacándome en áreas como <b>HTML, CSS, React, JavaScript y base de datos NoSQL</b> con resultados sobresalientes, y actualmente estoy inscrito en la carrera de <b>Diseño UX/UI</b>, donde continúo profundizando en la creación de experiencias digitales intuitivas y centradas en el usuario.
                     </>
                 ),
             },
@@ -54,7 +54,7 @@ const About = () => {
                 id: "parrafo4",
                 text: (
                     <>
-                        Mi visión para el futuro pasa por seguir creciendo profesionalmente como programador, con especial interés en el <b>Diseño UX/UI</b>. Creo firmemente que la combinación de mis habilidades técnicas y mi pasión por el diseño me posiciona como un candidato único y altamente calificado para abordar los desafíos del mundo digital actual.
+                        Creo firmemente que la combinación de mis habilidades técnicas y mi pasión por el diseño me posiciona como un candidato único y altamente calificado para abordar los desafíos del mundo digital actual.
                     </>
                 ),
             },
@@ -72,7 +72,7 @@ const About = () => {
                 id: "parrafo2",
                 text: (
                     <>
-                        However, my true journey towards personal fulfillment began when I decided to delve into the world of programming. Since then, I have been committed to dedicating all my time to improving my skills. I am currently enrolled in the <b>Full Stack Web Development</b> course at <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, excelling in areas such as <b>HTML, CSS, React, and JavaScript</b> with outstanding results.
+                        However, my true journey towards personal fulfillment began when I decided to delve into the world of programming. Since then, I have been committed to dedicating all my time to improving my skills. I graduated as a <b>Full Stack Web Developer</b> at <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, excelling in areas such as <b>HTML, CSS, React, JavaScript, and NoSQL databases</b> with outstanding results. I am currently enrolled in a <b>UX/UI Design program</b>, where I continue to deepen my knowledge in creating intuitive, user-centered digital experiences.
                     </>
                 ),
             },
@@ -88,7 +88,7 @@ const About = () => {
                 id: "parrafo4",
                 text: (
                     <>
-                        My vision for the future involves continuing to grow professionally as a programmer, with a particular interest in <b>UX/UI Design</b>. I firmly believe that the combination of my technical skills and my passion for design positions me as a unique and highly qualified candidate to tackle the challenges of the current digital world.
+                        I firmly believe that the combination of my technical skills and my passion for design positions me as a unique and highly qualified candidate to tackle the challenges of the current digital world.
                     </>
                 ),
             },
@@ -115,7 +115,7 @@ const About = () => {
                 style={{ zIndex: 50 }}
             >
                 {/* <h1 className="pl-3 pb-1 text-3xl tracking-widest font-extralight ">Facundo Robert</h1>  */}
-                <TypingText text="Faacundo Robert" speed={200} className="typing-text pl-3 pb-1 text-3xl text-center"/>
+                <TypingText text="Faacundo Robert" speed={200} className="typing-text pl-3 pb-1 text-3xl text-center" />
                 <hr className="lg:w-1/3 w-5/12 " />
             </motion.div>
 
@@ -144,9 +144,11 @@ const About = () => {
                                 <>
                                     <span className="block">Desarrollador</span>
                                     <span className="block">Web</span>
+                                    <span className="block text-xl">Full-Stack</span>
                                 </>
                             ) : (
                                 <>
+                                    <span className="block text-xl">Full-Stack</span>
                                     <span className="block">Web</span>
                                     <span className="block">Developer</span>
                                 </>

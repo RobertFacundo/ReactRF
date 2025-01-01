@@ -7,8 +7,8 @@ import { LanguageContext } from "./LanguageContext";
 
 
 const texts = {
-    es: "Si estás buscando lanzar un sitio web a un precio accesible y con un diseño personalizado que refleje la calidad de tu emprendimiento, o si eres una empresa o reclutador en busca de un desarrollador web profesional, no dudes en contactarme.",
-    en: "If you're looking to launch a website with an affordable price and a customized design that reflects the quality of your venture, or if you're a company or recruiter seeking a professional web developer, don't hesitate to contact me."
+    es: "Si tu empresa está en busca de un desarrollador web con pasión por crear experiencias digitales excepcionales, o si eres un reclutador interesado en alguien con mis habilidades, estaré encantado de conversar sobre cómo puedo contribuir a tu equipo",
+    en: "If your company is looking for a web developer with a passion for creating exceptional digital experiences, or if you are a recruiter interested in someone with my skills, I would be happy to discuss how I can contribute to your team."
 }
 
 const links = [
