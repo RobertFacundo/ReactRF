@@ -38,7 +38,7 @@ const About = () => {
                 id: "parrafo2",
                 text: (
                     <>
-                        Sin embargo, mi verdadero viaje hacia la realización personal comenzó cuando decidí adentrarme en el mundo de la programación. Desde entonces he estado comprometido a dedicarle todo mi tiempo para mejorar mis habilidades. Me recibí como <b>Desarrollor Web Full Stack</b> en <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, destacándome en áreas como <b>HTML, CSS, React, JavaScript y base de datos NoSQL</b> con resultados sobresalientes, y actualmente estoy inscrito en la carrera de <b>Diseño UX/UI</b>, donde continúo profundizando en la creación de experiencias digitales intuitivas y centradas en el usuario.
+                        Sin embargo, mi verdadero viaje hacia la realización personal comenzó cuando decidí adentrarme en el mundo de la programación. Desde entonces he estado comprometido a dedicarle todo mi tiempo para mejorar mis habilidades. Me recibí como <b>Desarrollor Web Full Stack (+1 año de experiencia)</b> en <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, destacándome en áreas como <b>HTML, CSS, React, JavaScript y base de datos NoSQL</b> con resultados sobresalientes, y actualmente estoy inscrito en la carrera de <b>Diseño UX/UI</b>, donde continúo profundizando en la creación de experiencias digitales intuitivas y centradas en el usuario.
                     </>
                 ),
             },
@@ -72,7 +72,7 @@ const About = () => {
                 id: "parrafo2",
                 text: (
                     <>
-                        However, my true journey towards personal fulfillment began when I decided to delve into the world of programming. Since then, I have been committed to dedicating all my time to improving my skills. I graduated as a <b>Full Stack Web Developer</b> at <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, excelling in areas such as <b>HTML, CSS, React, JavaScript, and NoSQL databases</b> with outstanding results. I am currently enrolled in a <b>UX/UI Design program</b>, where I continue to deepen my knowledge in creating intuitive, user-centered digital experiences.
+                        However, my true journey towards personal fulfillment began when I decided to delve into the world of programming. Since then, I have been committed to dedicating all my time to improving my skills. I graduated as a <b>Full Stack Web Developer (+1 year exp)</b> at <a className="l" target="_blank" href="https://www.coderhouse.com/ar/"><i>CoderHouse</i></a>, excelling in areas such as <b>HTML, CSS, React, JavaScript, and NoSQL databases</b> with outstanding results. I am currently enrolled in a <b>UX/UI Design program</b>, where I continue to deepen my knowledge in creating intuitive, user-centered digital experiences.
                     </>
                 ),
             },
