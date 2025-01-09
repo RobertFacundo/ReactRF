@@ -112,7 +112,7 @@ const Projects = () => {
             {
                 src: 'proyectos/cuentos.mp4',
                 desc: 'Mi primera zambullida al universo del HTML y CSS. Margin, padding, display: flex y conocer la maravilla del hover. Aprobado con nota sobresaliente, de yapa aproveché el sitio para subir cuentos que había escrito en otro tiempo.',
-                link: 'https://robertfacundo.github.io/PreEntrega3Robert/'
+                link: 'https://main--robertfacundo.netlify.app/'
             },
             {
                 src: 'proyectos/js.mp4',
