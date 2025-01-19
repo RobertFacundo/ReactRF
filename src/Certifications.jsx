@@ -22,7 +22,8 @@ const Certifications = () => {
             "/certificados/reactniof.png",
             "/certificados/EnBackend1.png",
             "/certificados/certificadoIngles.jpeg",
-            "/certificados/BackEndIIIngles.png"
+            "/certificados/BackEndIIIngles.png",
+            "/certificados/HackerRank1.jpg"
         ]
         : [
             "/certificados/sp1.png",
@@ -30,7 +31,8 @@ const Certifications = () => {
             "/certificados/Reactes.png",
             "/certificados/esBackend1.png",
             "/certificados/certificadoIngles.jpeg",
-            "/certificados/BackEndiiEspañol.png"
+            "/certificados/BackEndiiEspañol.png",
+            "/certificados/HackerRank1.jpg"
         ];
 
     return (
