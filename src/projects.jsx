@@ -52,11 +52,6 @@ const Projects = () => {
                 link: 'https://main--robertfacundo.netlify.app/'
             },
             {
-                src: 'proyectos/cuentos.mp4',
-                desc: 'My first dive into the world of HTML and CSS. Margin, padding, display: flex, and discovering the wonder of hover. Passed with flying colors, and as a bonus, I used the site to upload stories I had written in the past.',
-                link: 'https://robertfacundo.github.io/PreEntrega3Robert/'
-            },
-            {
                 src: 'proyectos/js.mp4',
                 desc: 'This site is the final project of the JavaScript course. It implements iterative loops, conditionals, and DOM modifications, as well as having a semi-functional shopping cart.',
                 link: 'https://robertfacundo.github.io/ProyectoFinalJavaScript/'
@@ -108,11 +103,6 @@ const Projects = () => {
                 src: 'proyectos/portfolio.mp4',
                 desc: 'Mi portfolio está desarrollado en React y utiliza múltiples proveedores de contexto para manejar el tema y el idioma a nivel global. La navegación está gestionada con React Router, permitiendo a los usuarios moverse entre diferentes las rutas. Las animaciones de entrada y salida se manejan con framer-motion, proporcionando una transición suave entre las páginas. En la página de proyectos, se utiliza Swiper para mostrar los proyectos de forma interactiva con navegación, paginación y soporte de teclado.',
                 link: 'https://main--robertfacundo.netlify.app/'
-            },
-            {
-                src: 'proyectos/cuentos.mp4',
-                desc: 'Mi primera zambullida al universo del HTML y CSS. Margin, padding, display: flex y conocer la maravilla del hover. Aprobado con nota sobresaliente, de yapa aproveché el sitio para subir cuentos que había escrito en otro tiempo.',
-                link: 'https://robertfacundo.github.io/PreEntrega3Robert/'
             },
             {
                 src: 'proyectos/js.mp4',
