@@ -62,9 +62,10 @@ const Projects = () => {
                 link: 'https://robertfacundo.github.io/musicShop/'
             },
             {
-                src: 'proyectos/fetch.mp4',
-                desc: "This project is a React application that uses a custom hook to fetch and display information about Pokémon from the PokeAPI. The application allows users to filter Pokémon by type (category) and view a random set of detailed Pokémon based on the user's selection.",
-                link: 'https://fecthreact.netlify.app/psychic'
+                src: 'proyectos/backendiii.mp4',
+                desc: "This project is the final project of my backend course, which I passed with the highest grade. It is a mock data generation and management API, which includes features like loggers for event and error tracking. Additionally, Handlebars was used to enhance the presentation of the project, providing a functional user interface. The API is also fully documented with Swagger, making it easy to use and test. For more information about the structure and the project, you can refer to the README file in my GitHub portfolio.",
+                link: 'https://backendiiideploy.onrender.com/',
+                readMe: 'https://github.com/RobertFacundo/backendiiiDeploy',
             },
             {
                 src: 'proyectos/ecommerce.mp4',
@@ -115,9 +116,10 @@ const Projects = () => {
                 link: 'https://robertfacundo.github.io/musicShop/'
             },
             {
-                src: 'proyectos/fetch.mp4',
-                desc: 'Este proyecto es una aplicación de React que utiliza un hook personalizado para obtener y mostrar información sobre Pokémon desde la PokeAPI. La aplicación permite a los usuarios filtrar Pokémon por tipo (categoría) y visualizar un conjunto aleatorio de Pokémon detallados basados en la selección del usuario.',
-                link: 'https://fecthreact.netlify.app/'
+                src: 'proyectos/backendiii.mp4',
+                desc: 'Este proyecto es el proyecto final de mi curso de backend, el cual aprobé con la calificación más alta. Se trata de una API de generación y gestión de datos mock, que incluye funcionalidades como loggers para el registro de eventos y errores. Además, se implementó el uso de Handlebars para mejorar la presentación del proyecto, brindando una interfaz de usuario funcional. La API también está completamente documentada mediante Swagger, lo que facilita su uso y pruebas. Para más información sobre la estructura y el proyecto, pueden consultar el archivo README en mi portfolio de GitHub.',
+                link: 'https://backendiiideploy.onrender.com/',
+                readMe: 'https://github.com/RobertFacundo/backendiiiDeploy',
             },
             {
                 src: 'proyectos/ecommerce.mp4',
@@ -166,7 +168,7 @@ const Projects = () => {
                                     exit={{ opacity: 0, x: 100 }}
                                     transition={{ duration: 1 }}
                                 />
-                                <div className="flex flex-col items-center justify-center font-buda text-xl tracking-wider text-center">
+                                <div className="flex flex-col items-center justify-center font-buda font-semibold text-xl tracking-wider text-center">
                                     <motion.p
                                         className="w-4/5 mx-auto z-50 pt-6"
                                         initial={{ opacity: 0, y: 50 }}
@@ -176,18 +178,33 @@ const Projects = () => {
                                     >
                                         {project.desc}
                                     </motion.p>
-                                    <motion.a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href={project.link}
-                                        className="mt-6 link-hover italic hover:font-semibold"
-                                        initial={{ opacity: 0, scale: 0.8 }}
-                                        animate={{ opacity: 1, scale: 1 }}
-                                        exit={{ opacity: 0, scale: 0.5 }}
-                                        transition={{ duration: 1 }}
-                                    >
-                                        {language === 'en' ? 'Visit' : 'Visitar'}
-                                    </motion.a>
+                                    <div>
+                                        <motion.a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href={project.link}
+                                            className="mt-6 link-hover italic hover:font-semibold mr-5"
+                                            initial={{ opacity: 0, scale: 0.8 }}
+                                            animate={{ opacity: 1, scale: 1 }}
+                                            exit={{ opacity: 0, scale: 0.5 }}
+                                            transition={{ duration: 1 }}
+                                        >
+                                            {language === 'en' ? 'Web Site' : 'Sitio Web'}
+                                        </motion.a>
+                                        {project.readMe && <motion.a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href={project.readMe}
+                                            className="mt-6 link-hover italic hover:font-semibold"
+                                            initial={{ opacity: 0, scale: 0.8 }}
+                                            animate={{ opacity: 1, scale: 1 }}
+                                            exit={{ opacity: 0, scale: 0.5 }}
+                                            transition={{ duration: 1 }}
+                                        >
+                                            {'GitHub'}
+                                        </motion.a>
+                                        }
+                                    </div>
                                 </div>
                             </div>
                         </SwiperSlide>

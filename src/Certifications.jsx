@@ -17,22 +17,24 @@ const Certifications = () => {
 
     const images = language === 'en'
         ? [
+            "/certificados/reactniof.png",
+            "/certificados/backendiiicertificadoespañol.png",
+            "/certificados/HackerRank1.jpg",
             "/certificados/en1.png",
             "/certificados/en2.png",
-            "/certificados/reactniof.png",
             "/certificados/EnBackend1.png",
             "/certificados/certificadoIngles.jpeg",
             "/certificados/BackEndIIIngles.png",
-            "/certificados/HackerRank1.jpg"
         ]
         : [
+            "/certificados/Reactes.png",
+            "/certificados/backendiiicertificadoespañol.png",
+            "/certificados/HackerRank1.jpg",
             "/certificados/sp1.png",
             "/certificados/sp2.png",
-            "/certificados/Reactes.png",
             "/certificados/esBackend1.png",
             "/certificados/certificadoIngles.jpeg",
             "/certificados/BackEndiiEspañol.png",
-            "/certificados/HackerRank1.jpg"
         ];
 
     return (
